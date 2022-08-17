@@ -1,0 +1,43 @@
+header{
+    top: 0px; 
+    background-color: rgb(193, 255, 148, 100);
+    align-items: center;
+    position: sticky;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    a{
+        logo{
+        margin-left: 30px;
+    }
+    }
+    nav{
+        ul{
+            list-style: none;
+            font-family:'Roboto Mono', monospace;
+            display: flex;
+            li{                
+                a{
+                    display: inline;
+                    width: 15%;
+                    padding: 0.7rem;
+                    font-size: 17px; 
+                }
+                ul{
+                    position: fixed;
+                    display: none;  
+                }
+                display: block;
+                width:180px;
+                font-size: 17px;     
+                &:hover{
+                    ul{
+                        display:block;
+                        background-color: brown;
+                    }
+                }
+                
+            }
+        }
+    }
+}

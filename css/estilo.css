@@ -1,0 +1,107 @@
+body {
+  background-color: beige;
+}
+
+header {
+  top: 0px;
+  background-color: rgb(193, 255, 148);
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+header a logo {
+  margin-left: 30px;
+}
+header nav ul {
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+}
+header nav ul li {
+  display: block;
+  width: 180px;
+  font-size: 17px;
+}
+header nav ul li a {
+  display: inline;
+  width: 15%;
+  padding: 0.7rem;
+  font-size: 17px;
+}
+header nav ul li ul {
+  position: fixed;
+  display: none;
+}
+header nav ul li:hover ul {
+  display: block;
+  background-color: brown;
+}
+
+main .img1 {
+  grid-column: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+.informacionGeneral {
+  background-image: linear-gradient(to right, white, pink, rgb(248, 139, 248), violet);
+  padding: 1.2rem;
+  justify-content: center;
+}
+.informacionGeneral h2 {
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+  color: blanchedalmond;
+}
+.informacionGeneral p {
+  font-family: "Roboto Mono", monospace;
+  color: rgb(31, 71, 71);
+  text-align: center;
+}
+
+.opiniones {
+  height: 500px;
+  background-color: pink;
+  overflow: auto;
+}
+.opiniones p {
+  font-family: "Roboto Mono", monospace;
+  color: rgb(31, 71, 71);
+}
+
+.reviews {
+  padding: 1.2rem;
+  margin: 1.2rem;
+  justify-content: center;
+}
+.reviews img {
+  transition: all 2s ease;
+}
+.reviews img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.seccionRedes {
+  background-color: navy;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+}
+.seccionRedes h3 {
+  text-align: left;
+}
+.seccionRedes .faceLogo {
+  transition: all 1s ease;
+}
+.seccionRedes .faceLogo:hover {
+  transform: scale(1.2, 1.2);
+}
+.seccionRedes .instaLogo {
+  transition: all 1s ease;
+}
+.seccionRedes .instaLogo:hover {
+  transform: scale(1.2, 1.2);
+}/*# sourceMappingURL=estilo.css.map */

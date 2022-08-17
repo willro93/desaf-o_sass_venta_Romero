@@ -1,0 +1,42 @@
+main{
+    .img1{
+        grid-column: 1;
+        width: 100%;
+        justify-content: center;
+    }
+}
+.informacionGeneral{
+    background-image: linear-gradient(to right, white, pink, rgb(248, 139, 248), violet) ;
+    padding:1.2rem;
+    justify-content: center; 
+    h2{
+        font-family: 'IBM Plex Mono', monospace;
+        text-align: center;
+        color: blanchedalmond;
+    }
+    p{
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(31, 71, 71);
+        text-align: center;
+    }
+}
+.opiniones{
+    height: 500px;
+    background-color: pink;
+    overflow:auto;
+    p{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(31, 71, 71);
+  }  
+}
+.reviews{
+    padding: 1.2rem;
+    margin: 1.2rem;   
+    justify-content:center;
+    img{
+        transition: all 2s ease;
+        &:hover{
+            transform: scale(1.1, 1.1);  
+        }
+    }
+}

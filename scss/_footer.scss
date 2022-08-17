@@ -1,0 +1,21 @@
+.seccionRedes{
+    background-color: navy;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    h3{
+        text-align: left;
+    }
+    .faceLogo{
+        transition: all 1s ease;
+        &:hover{
+            transform: scale(1.2, 1.2);
+        }
+    }
+    .instaLogo{
+        transition: all 1s ease;
+        &:hover{
+            transform: scale(1.2, 1.2);
+        }
+    }
+}
